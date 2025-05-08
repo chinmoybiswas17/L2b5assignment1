@@ -19,7 +19,7 @@ This flexibility allows developers to define complex types that go beyond mere o
 
 ## Key Differences
 
-###  *Declaration Merging
+###  1.Declaration Merging
 
 Interface: Supports declaration merging.
 
