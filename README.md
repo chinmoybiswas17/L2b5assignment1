@@ -70,3 +70,45 @@ While both constructs are efficient, interfaces can provide slight performance a
 
 
 
+
+# What is type inference in TypeScript? Why is it helpful?
+
+## type inference
+Type inference is the ability of the compiler to automatically determine the type of a variable based on its value.
+
+![image](https://github.com/user-attachments/assets/fd5ae976-545c-4f32-9bf7-098eccb7a0eb)
+
+
+TypeScript infers that name is a string because you assigned a string to it.
+
+## Why Is Type Inference Helpful?
+It is helpful because-
+1.Less Code to Write
+
+2.You don’t always need to write out the types.
+
+3.Keeps your code cleaner and shorter.
+
+4.Still Type-Safe
+
+5.Even without explicit types, TypeScript still protects you.
+
+6.You’ll get errors if you try to use the variable incorrectly:
+
+![image](https://github.com/user-attachments/assets/d6ceb286-9d44-41a1-a246-5fd1222f69fb)
+
+7.TypeScript automatically infers the type based on the assigned value.
+
+![image](https://github.com/user-attachments/assets/e5acbad2-d9d6-4a12-9ec0-bf9afdf779f1)
+
+8.TypeScript can infer the return type of functions based on the returned value.
+
+![image](https://github.com/user-attachments/assets/1383f414-c625-4c67-be0e-b0a04d0cdbc2)
+
+9.TypeScript can infer the type of arrays and objects based on their contents.
+
+![image](https://github.com/user-attachments/assets/c00d9324-c755-49eb-b0ba-a0389dbd2f3c)
+
+
+
+
