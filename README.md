@@ -5,14 +5,15 @@ There have some differences between interfaces and types in Typescript. Before k
 TypeScript interfaces define the structure of objects by specifying property types and method signatures, ensuring consistent shapes and enhancing code clarity.
 
 
-![Screenshot_42](https://github.com/user-attachments/assets/c34671b3-be82-42ba-af3e-d39723fac25d)
+![image](https://github.com/user-attachments/assets/ff2b0261-e6d8-4d23-83c7-0952007b564c)
 
 This simple declaration explain that any object of type User will always have a name and an age, both of the specified types.
 
 ## What Are Types?
 Types, or type aliases, offer a broader scope. They can represent not only object shapes but also primitive types, unions, intersections, and more.
 
-![image](https://github.com/user-attachments/assets/88a37949-62aa-42bc-8986-993ee577645a)
+![image](https://github.com/user-attachments/assets/850d7e6d-1232-4209-8fc7-a33545c3d2d4)
+
 
 This flexibility allows developers to define complex types that go beyond mere object structures.
 
@@ -22,23 +23,27 @@ This flexibility allows developers to define complex types that go beyond mere o
 
 Interface: Supports declaration merging.
 
-![image](https://github.com/user-attachments/assets/271b7221-19c0-43cf-8193-30ef22a61069)
+![image](https://github.com/user-attachments/assets/8d9c1be4-d3dc-4cf0-beb9-9afe23c77df0)
+
 
 
 Type: Does not support declaration merging.
 
-![image](https://github.com/user-attachments/assets/54610dd1-23a6-4d6c-b00e-18f139cf6720)
+![image](https://github.com/user-attachments/assets/1c424615-562a-44c7-8a82-759e178f98e5)
+
 ### 2. Extending and Composition
 
 Both types and interfaces support inheritance or composition—but they do it differently.
 
 Using extends with Interfaces:
 
-![image](https://github.com/user-attachments/assets/ed6a1a18-f0d1-4c26-8177-1b53b48972dc)
+![image](https://github.com/user-attachments/assets/8ca6ad3a-0665-4b2d-b08c-5cea34d46109)
+
 
 Using & with Type Aliases:
 
-![image](https://github.com/user-attachments/assets/47f04dfb-7fe9-4a9b-b605-b0d3a02b93f8)
+![image](https://github.com/user-attachments/assets/15d1bc8e-ea5c-4011-9af7-f64c47d3f6b4)
+
 
 
 ### 3. Beyond Objects: Flexibility of type
@@ -48,7 +53,8 @@ Type aliases shine when you’re dealing with more than just object shapes. They
 2.Tuple types
 3.Primitive aliases
 
-![image](https://github.com/user-attachments/assets/90bf8b7d-16dd-4eee-852f-e54e9c0d3ee0)
+![image](https://github.com/user-attachments/assets/c6cdc560-75f2-4c8e-b37d-15ad4aab50e1)
+
 
 Interfaces, however, are limited to object-like structures.Use type when working with unions, primitives, or tuples.
 
@@ -56,7 +62,8 @@ Interfaces, however, are limited to object-like structures.Use type when working
 
 Both interface and type can be used with classes:
 
-![image](https://github.com/user-attachments/assets/05025b42-2895-4065-a749-fb3e515fe3d2)
+![image](https://github.com/user-attachments/assets/3902b5f0-ff5d-45f7-bc34-f6f75ffa1d36)
+
 
 
 
@@ -76,7 +83,8 @@ While both constructs are efficient, interfaces can provide slight performance a
 ## type inference
 Type inference is the ability of the compiler to automatically determine the type of a variable based on its value.
 
-![image](https://github.com/user-attachments/assets/fd5ae976-545c-4f32-9bf7-098eccb7a0eb)
+![image](https://github.com/user-attachments/assets/2f10909b-19f4-44fc-a0c8-11f60e830d5b)
+
 
 
 TypeScript infers that name is a string because you assigned a string to it.
@@ -95,19 +103,21 @@ It is helpful because-
 
 6.You’ll get errors if you try to use the variable incorrectly:
 
-![image](https://github.com/user-attachments/assets/d6ceb286-9d44-41a1-a246-5fd1222f69fb)
+![image](https://github.com/user-attachments/assets/caea8de0-e21c-41dc-a8ba-1df64b8700b2)
+
 
 7.TypeScript automatically infers the type based on the assigned value.
 
-![image](https://github.com/user-attachments/assets/e5acbad2-d9d6-4a12-9ec0-bf9afdf779f1)
+![image](https://github.com/user-attachments/assets/56d3e3a5-fc3e-48a3-93aa-42a2c494be4b)
+
 
 8.TypeScript can infer the return type of functions based on the returned value.
 
-![image](https://github.com/user-attachments/assets/1383f414-c625-4c67-be0e-b0a04d0cdbc2)
+![image](https://github.com/user-attachments/assets/26c5fdbe-c7ca-419d-81a9-3cd022aa4af6)
 
 9.TypeScript can infer the type of arrays and objects based on their contents.
 
-![image](https://github.com/user-attachments/assets/c00d9324-c755-49eb-b0ba-a0389dbd2f3c)
+![image](https://github.com/user-attachments/assets/1310845b-f608-4b2d-aac3-ebe36dbe1b56)
 
 
 
