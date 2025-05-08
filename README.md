@@ -22,7 +22,8 @@ This flexibility allows developers to define complex types that go beyond mere o
 
 Interface: Supports declaration merging.
 
-![image](https://github.com/user-attachments/assets/3536c4b5-de54-4ec0-b04a-704b0d4c4f08)
+![image](https://github.com/user-attachments/assets/271b7221-19c0-43cf-8193-30ef22a61069)
+
 
 Type: Does not support declaration merging.
 
