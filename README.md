@@ -78,7 +78,7 @@ While both constructs are efficient, interfaces can provide slight performance a
 
 
 
-# What is type inference in TypeScript? Why is it helpful?
+# 2.What is type inference in TypeScript? Why is it helpful?
 
 ## type inference
 Type inference is the ability of the compiler to automatically determine the type of a variable based on its value.
